@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 android:id="@+id/coordination_container"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@color/color_grey"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/user_photo_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_image_size"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/header_bg_1"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginTop="@dimen/spacing_normal_16dp"
+                android:titleTextColor="@color/color_white"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:theme="@style/ToolBarStyle"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_larger_104dp"
+        android:layout_marginTop="@dimen/profile_image_size"
+        android:background="@color/color_grey"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/layout_score">
+
+            <TextView
+                android:id="@+id/rating_value_tv"
+                style="@style/rating_value"/>
+
+            <TextView
+                android:id="@+id/rating_body_tv"
+                style="@style/text_view.bottom"
+                android:fontFamily="@string/sans_serif_condensed"
+                android:text="@string/rating"/>
+        </LinearLayout>
+
+        <View style="@style/vertical_line"/>
+
+        <LinearLayout style="@style/layout_score">
+
+            <TextView
+                android:id="@+id/lines_code_value_tv"
+                style="@style/lines_code_value"/>
+
+            <TextView
+                android:id="@+id/lines_code_body_tv"
+                style="@style/text_view.bottom"
+                android:fontFamily="sans_serif_condensed"
+                android:text="@string/lines_code"/>
+        </LinearLayout>
+
+        <View style="@style/vertical_line"/>
+
+        <LinearLayout style="@style/layout_score">
+
+            <TextView
+                android:id="@+id/project_value_tv"
+                style="@style/projects_value"/>
+
+            <TextView
+                android:id="@+id/project_body_tv"
+                style="@style/text_view.bottom"
+                android:fontFamily="sans_serif_condensed"
+                android:text="@string/projects"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/static_profile_content"/>
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Мамонтов Анатолий</string>
+
+    <string name="user_name">Мамонтов А.C.</string>
+    <string name="about_me">Если есть выпить, значит надо пить…</string>
+    <string name="about_title">О себе</string>
+    <string name="repozitori_title">Репозиторий</string>
+    <string name="repozitori_text">github.com/mamontino</string>
+    <string name="prof_social_title">Профиль в VK</string>
+    <string name="prof_social_text">vk.com/mamontino</string>
+    <string name="mail_title">Электронная почта</string>
+    <string name="mail_text">yattzy@yandex.ru</string>
+    <string name="phone_title">Мобильный телефон</string>
+    <string name="phone_text">+7 (913) 744-14-43</string>
+
+    <string name="header_rating_vol">5</string>
+    <string name="header_code_strings_vol">25000</string>
+
+    <string name="quantity_rating">4</string>
+    <string name="quantity_lines_code">500</string>
+    <string name="header_projects_vol">5</string>
+    <string name="quantity_projects">1</string>
+    <string name="rating">Рейтинг</string>
+    <string name="lines_code">Написано строк кода</string>
+    <string name="projects">Проектов</string>
+    <string name="sans_serif_condensed">sans-serif-condensed</string>
+
+    <string name="menu_me_profile">Мой профиль</string>
+    <string name="menu_team">Команда</string>
+    <string name="user_profile.placeholder.image">Изменить фотографию профеля</string>
+    <string name="user_profile.dialog.galerey">Загрузить из галереи</string>
+    <string name="user_profile.dialog.camera">Сделать снимок</string>
+    <string name="user_profile.dialog.cancel">Отмена</string>
+    <string name="user_profile.dialog.title">Изменить фотографию пользователя</string>
+    <string name="user_profile.chose.messege">Выберите фото</string>
+    <string name="message_need_take_permissions">Для корректной работы приложения необходимо дать требуемые разрешение</string>
+    <string name="main_activity_error_not_found_call_app">Не найдено приложение для звонка</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- login activity -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">ВОЙТИ</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="user_profile.empty_bio">Этот пользователь пока о себе ничего не написал...</string>
+    <string name="ff_medium">sans_serif_medium</string>
+    <string name="ff_regular">sans_serif-condensed</string>
+
+    <string name="more_info_btn">Просмотр</string>
+    <string name="search_title">Поиск</string>
+
+
+</resources>

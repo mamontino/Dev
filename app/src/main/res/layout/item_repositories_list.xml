@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_large_72">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/spacing_larger_72dp"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/repositorii_et"
+            style="@style/textProfile"
+            android:fontFamily="sans_serif_condensed"
+            android:hint="@string/repozitori_title"
+            android:inputType="textUri"
+            android:text="@string/repozitori_text"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        style="@style/icon.right"
+        android:src="@drawable/ic_visibility_black_24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
